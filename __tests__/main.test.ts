@@ -1,8 +1,8 @@
 import { hello } from '../src/main';
 
 
-describe('Hello, World', () => {
-  it('should return "Hello, World!"', () => {
+describe('hello', () => {
+  it('returns a custom greeting', () => {
     expect(hello('World')).toBe('Hello, World!');
   });
 });
